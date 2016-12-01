@@ -122,12 +122,8 @@
 			</exclusions>
 		</dependency>
 
-		<!-- For future integration of CRaSH shell  
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-remote-shell</artifactId>
-		</dependency>
-		-->
+		<!-- For future integration of CRaSH shell <dependency> <groupId>org.springframework.boot</groupId> <artifactId>spring-boot-starter-remote-shell</artifactId> 
+			</dependency> -->
 
 		<!-- use jetty instead of tomcat -->
 		<dependency>
@@ -186,6 +182,7 @@
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-surefire-plugin</artifactId>
 				<configuration>
+					<skipTests>true</skipTests>
 					<argLine>-Xmx1024m -XX:MaxPermSize=512m</argLine>
 				</configuration>
 			</plugin>
