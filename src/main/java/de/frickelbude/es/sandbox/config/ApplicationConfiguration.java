@@ -40,6 +40,4 @@ public class ApplicationConfiguration {
         objectMapper.configure(SerializationFeature.WRITE_NULL_MAP_VALUES, false);
         return objectMapper;
     }
-
-
 }
