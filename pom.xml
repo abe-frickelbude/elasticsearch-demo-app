@@ -122,10 +122,12 @@
 			</exclusions>
 		</dependency>
 
+		<!-- For future integration of CRaSH shell  
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-remote-shell</artifactId>
 		</dependency>
+		-->
 
 		<!-- use jetty instead of tomcat -->
 		<dependency>
